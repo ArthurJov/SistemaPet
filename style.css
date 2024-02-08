@@ -1,0 +1,342 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #05374b;
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+nav .logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+
+nav li{
+    margin-left: 30px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s; 
+}
+
+nav li a:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(Pets.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.texto .titulo{
+    color: white;
+    font-size: 40px;
+
+}
+
+.texto .sub_titulo{
+    color: white;
+    font-size:large;
+    padding-top: 15px;
+    font-style: italic;
+    font-family:'Times New Roman', Times, sans-serif
+}
+
+.texto .botoes{
+    margin-top: 30px;
+}
+
+.texto .botoes button{
+    height: 55px;
+    width: 170px;
+    border-radius: 10px;
+    border: 0;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;  
+    transition: 0.5s;
+}
+
+.texto .botoes button:hover{
+    background-color: #186a99;
+    border: #fff;
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+}
+
+.main{
+    display:flex;
+    justify-content: center;
+    background-color: #05374b;
+}
+
+.card{
+    margin: 50px;
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    color: #202020;
+    text-align: center;
+}
+
+.card>img{
+    width: 100%;
+    height: 45%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card>h1{
+
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.card p{
+    font-size: 17px;
+    margin: 15px;
+}
+
+.btn{
+    background-color: #186a99;
+    color: white;
+    height: 40px;
+    width: 170px;
+    border-radius: 10px;
+    border: 0;
+    margin: 0 10px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;  
+    transition: 0.5s;
+    font-weight: 500;
+}
+
+.card1>h1{
+    margin-bottom: 40px;
+}
+
+.btn1{
+    margin-top: 32px;
+}
+
+.btn2{
+    margin-top: 10px;
+}
+
+.card3>h1{
+    margin-bottom: 30px;
+}
+
+.btn3{
+    margin-top: 17px;
+}
+
+.btn:hover{
+    background-color: #2bc9c1;
+    border-radius: 50px;
+    color: #202020;
+    font-weight: 600;
+    width: 140px;
+}
+
+.main2{
+    display:flex;
+    justify-content: center;
+    background-color: #05374b;
+}
+
+.main2>.card1 h1 {
+    margin-bottom: 30px;
+}
+
+.main2>.card2 h1 {
+    margin-bottom: 30px;
+}
+
+.main2>.card1>.btn1{
+    margin-top: 20px;
+}
+
+.main2>.card2>.btn2{
+    margin-top: 20px;
+}
+
+.main2>.card3>.btn3{
+    margin-top: 20px;
+}
+
+.interface{
+    text-align: center;
+    background: linear-gradient(#05374b, #202020);
+}
+
+.interface h1{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.interface h2{
+    color:white;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+section.form{
+    display: block;
+}
+
+section.form{
+    padding-bottom: 80px 4%;
+    justify-content: center;
+    display: inline;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    border: 0;
+    border-radius: 10px;
+    outline: 0;
+    padding: 10px;
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+form textarea{
+    resize: none;
+    width: 610px;
+    max-height: 200px;
+}
+
+form .btn-enviar input{
+    background-color: #186a99;
+    color: white;
+    height: 40px;
+    width: 170px;
+    border-radius: 10px;
+    border: 0;
+    margin: 0 10px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;  
+    transition: 0.5s;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+form .btn-enviar input:hover{
+background-color: #2bc9c1;
+width: 120px;
+border-radius: 50px;
+color: #202020;
+font-weight: 600;
+}
+
+footer{
+    background: linear-gradient(#202020, #000000);
+    text-align: center;
+    padding-top: 40px;
+}
+
+.social a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    transition: 0.5s;
+}
+
+#insta:hover{
+    background: linear-gradient(217deg, #FD1D1D, rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, #833AB4, rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, #ffdc7b, rgba(0,0,255,0) 70.71%);
+            
+}
+
+#git:hover{
+    background-color: white;
+    color: #000000;
+}
+
+#linkedin:hover{
+    background-color: #0a66c2;
+}
+
+footer>ul>li{
+    display: inline-block;
+    padding: 30px 80px 30px 80px;
+    font-size: 20px;
+}
+
+footer>ul>li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    padding: 15px;
+    transition: 0.3s;
+    border-radius: 50px;
+}
+
+footer>ul>li a:hover{
+    background-color: white;  
+    color: #202020;   
+}
+
+footer p{
+    color: rgb(59, 59, 59);
+    font-style: italic;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
